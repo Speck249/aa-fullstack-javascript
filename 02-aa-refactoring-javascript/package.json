@@ -1,0 +1,15 @@
+{
+  "name": "js-refactor-project",
+  "version": "1.0.0",
+  "description": "In this project, you will reexamine some problems you've tackled before but with small tweaks. For the most part, the problems will be similar but with modified criteria for what they should do.",
+  "main": "problems.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.2"
+  }
+}
