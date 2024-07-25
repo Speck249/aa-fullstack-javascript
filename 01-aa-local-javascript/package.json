@@ -1,0 +1,15 @@
+{
+  "name": "js-repeat-local",
+  "version": "1.0.0",
+  "description": "In this practice, you will be taking some of the exercises you performed in Part 1 using the browser's console, and rewriting them into JavaScript files.",
+  "main": "problems.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.2"
+  }
+}
