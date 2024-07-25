@@ -1,0 +1,22 @@
+{
+  "name": "advanced_array_methods",
+  "version": "1.0.0",
+  "description": "It's time to get some practice using Node.js and the advanced Array methods! Included are a number of array-related problems.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "test-with-json": "mocha --reporter json"
+  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-spies": "^1.0.0",
+    "mocha": "^6.2.2"
+  },
+  "devDependencies": {}
+}
