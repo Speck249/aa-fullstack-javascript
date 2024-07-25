@@ -1,0 +1,1 @@
+console.log(Student.compareGPA(Student1, Student2))
