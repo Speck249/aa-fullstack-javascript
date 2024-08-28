@@ -33,7 +33,7 @@ function countDownTimer(num) {
   if (num === 0) {
     return string
   } else if (num > 0) {
-    return function () {
+    return () => {
       num--
       if (num === 0) {
         return string

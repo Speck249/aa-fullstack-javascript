@@ -13,7 +13,7 @@ let result3 = reverseStr("potato"); // returns "otatop"
 ***********************************************************************/
 
 const reverseStr = (string) => {
-  let newString = '';
+  let newString = "";
   for (i = string.length - 1; i >= 0; i--) {
     newString += string[i]
   }

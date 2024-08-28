@@ -34,7 +34,7 @@ console.log(table2(75)); // STILL prints 6
 function recVolume(height) {
   let h, l, w, volume;
   h = height;
-  return function(dimension) {
+  return (dimension) => {
     if (w === undefined) {
       w = dimension
       return recVolume;

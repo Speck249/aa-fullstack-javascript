@@ -19,7 +19,7 @@ multiplyByFive(5); // returns 25
 ***********************************************************************/
 
 function dynamicMultiply(num) {
-  return function(multiplier) {
+  return (multiplier) => {
     return num * multiplier 
   }
 }

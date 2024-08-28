@@ -19,7 +19,7 @@ sandwich2("pb") // => "One sandwich with tomato and pb"
 
 function sandwichMaker() {
     let newSentence = 'One sandwich with tomato'
-    return function(string) {
+    return (string) => {
       newSentence += ` and ${string}`
       return newSentence
     }

@@ -15,7 +15,7 @@ console.log(twentyPercent([10, 20, 30])); // [ 8, 16, 24 ]
 
 ***********************************************************************/
 function coupon(discount) {
-  return function(array) {
+  return (array) => {
     const discountPrices = []
     array.forEach(item => {
       let newPrice = item - (item * discount)

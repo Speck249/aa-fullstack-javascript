@@ -11,11 +11,10 @@ arrowAvgValue([100, 60, 64]); // => 74.66666666666667
 ***********************************************************************/
 
 const arrowAvgValue = (array) => {
-  let sumOfNums = 0;
-  array.forEach((item) => {
-    sumOfNums += item;
+  const totalSum = array.reduce((accumulator, item) => {
+    return accumulator += item;
   })
-  return sumOfNums / array.length
+  return totalSum / array.length
 };
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/

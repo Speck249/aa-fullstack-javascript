@@ -17,7 +17,7 @@ hidden2(); // returns 1
 
 function hiddenCounter() {
   let count = 0;
-  return function() {
+  return () => {
     count++
     return count
   }

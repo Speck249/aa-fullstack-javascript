@@ -17,7 +17,7 @@ console.log(fame(["a", "f", "z", "b"])); // returns [ 'f', 'a' ]
 
 function plannedIntersect(firstArr) {
   const commonArray = [];
-  return function(secondArr) {
+  return (secondArr) => {
     firstArr.forEach((item) => {
       secondArr.forEach((element) => {
         if (item === element) {

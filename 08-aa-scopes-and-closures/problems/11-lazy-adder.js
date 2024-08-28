@@ -23,14 +23,12 @@ AFTER YOU ARE FINISHED WITH THIS PROBLEM, ASK FOR A CODE REVIEW
 ***********************************************************************/
 
 function lazyAdder(firstNum) {
-  return function(secondNum) {
-    return function(thirdNum) {
+  return (secondNum) => {
+    return (thirdNum) => {
       return firstNum + secondNum + thirdNum
     }
   }
 }
-
-// const lazyAdder = (x, y, z) => x + y + z;
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 

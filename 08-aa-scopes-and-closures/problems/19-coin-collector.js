@@ -27,7 +27,7 @@ Example 3:
 
 function coinCollector(numCoins) {
   let collectedCoins = [];
-  return function(coin) {
+  return (coin) => {
     if (collectedCoins.length !== numCoins) {
       if (coin > 0) {
         collectedCoins.push(coin)

@@ -25,7 +25,7 @@ console.log(smoothie2("pineapple"));
 
 const smoothieMachine = (...ingredients) => {
   let string = "I'm having a smoothie with"
-  return function(...moreIngredients) {
+  return (...moreIngredients) => {
     if (ingredients.length === 0) {
       if (moreIngredients.length > 1) {
         string = `${string} and ${moreIngredients.join(' and ')}`
