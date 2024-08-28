@@ -17,7 +17,7 @@ console.log(result2);   // [ 'RUN!', 'FORREST!' ]
 *******************************************************************************/
 
 let myMap = function(array, cb) {
-    let mutatedArray = [];
+    const mutatedArray = [];
     for (let item of array) {
         mutatedArray.push(cb(item));
     }

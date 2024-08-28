@@ -32,8 +32,6 @@ let none = function(array, cb) {
     for (let item of array) {
         if (cb(item) === true) {
             return false;
-        } else {
-            continue;
         }
     }
     return true;

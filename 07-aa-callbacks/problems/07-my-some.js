@@ -26,7 +26,7 @@ console.log(result3);   // true
 let mySome = function(array, cb) {
     for (let i = 0; i < array.length; i++) {
         if (cb(array[i], i)) {
-            return true;
+            return true
         }
     }
     return false;

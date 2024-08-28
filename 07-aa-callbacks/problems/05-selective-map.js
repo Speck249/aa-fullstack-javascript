@@ -43,7 +43,7 @@ AFTER YOU ARE FINISHED WITH THIS PROBLEM, ASK FOR A CODE REVIEW
 *******************************************************************************/
 
 let selectiveMap = function(array, cb1, cb2) {
-    let selectedElem = [];
+    const selectedElem = [];
     for (let item of array) {
         if (cb1(item)) {
             selectedElem.push(cb2(item));

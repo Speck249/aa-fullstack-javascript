@@ -22,9 +22,9 @@ console.log(reject(['breadth', 'GRAPH', 'depth', 'height'], hasA)); // [ 'depth'
 *******************************************************************************/
 
 let reject = function(array, cb) {
-    let arrayOfRejects = [];
+    const arrayOfRejects = [];
     for (let item of array) {
-        if (cb(item) === false) {
+        if (!cb(item)) {
             arrayOfRejects.push(item)
         }
     }
