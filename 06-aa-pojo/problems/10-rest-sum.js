@@ -10,6 +10,7 @@ restSum(0); // => 0
 ***********************************************************************/
 
 function restSum(...otherNums) {
+  console.log(otherNums)
   let sum = 0;
   for (let num of otherNums) {
     sum += num

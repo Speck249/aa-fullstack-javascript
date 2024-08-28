@@ -24,9 +24,8 @@ function keyInObjectArray(objArray, keyString) {
     for (key in objArray[i]) {
       if (key !== keyString) {
         continue;
-      } else {
-        return true
       }
+      return true
     }
   }
   return false;
