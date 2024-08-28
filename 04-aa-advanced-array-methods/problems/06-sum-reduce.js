@@ -16,7 +16,7 @@ let sumWithReduce = function(nums) {
   if (nums.length === 0) {
     return 0
   };
-  let sumOfArray = nums.reduce(function(accumulator, item) {
+  const sumOfArray = nums.reduce(function(accumulator, item) {
     return accumulator += item;
   })
   return sumOfArray;

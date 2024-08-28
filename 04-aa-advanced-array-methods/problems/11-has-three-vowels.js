@@ -18,7 +18,7 @@ console.log(hasThreeVowels('go home'));         //  false
 
 let hasThreeVowels = function(string) {
     const vowel = 'aeiouAEIOU';
-    let validateWord = vowel.split('').filter(function(item) {
+    const validateWord = vowel.split('').filter(function(item) {
         if (string.includes(item)) {
             return item;
         }

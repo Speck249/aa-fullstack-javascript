@@ -18,9 +18,8 @@ let shortestWord = function(sentence) {
   const searchResult = sentence.split(' ').reduce(function(accumulator, item) {
     if (accumulator.length < item.length) {
       return accumulator;
-    } else {
-      return item;
     }
+    return item
   })
   return searchResult;
 };

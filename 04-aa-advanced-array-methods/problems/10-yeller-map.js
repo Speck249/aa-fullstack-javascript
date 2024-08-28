@@ -13,7 +13,7 @@ console.log(yeller(['kiwi', 'orange', 'mango'])); // [ 'KIWI!', 'ORANGE!', 'MANG
 */
 
 let yeller = function(words) {
-  let yellWords = words.map(function(item) {
+  const yellWords = words.map(function(item) {
     return `${item.toUpperCase()}!`;
   })
   return yellWords;

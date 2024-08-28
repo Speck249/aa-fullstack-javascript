@@ -16,7 +16,7 @@ console.log(productWithReduce([4, 3])); // 12
 */
 
 let productWithReduce = function(nums) {
-    let prodOfArray = nums.reduce(function(accumulator, item) {
+    const prodOfArray = nums.reduce(function(accumulator, item) {
       return accumulator *= item
     })
   return prodOfArray;

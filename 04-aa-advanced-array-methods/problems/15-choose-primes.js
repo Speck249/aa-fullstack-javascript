@@ -48,14 +48,6 @@ let choosePrimes = function(nums) {
     return primeNums;
 }
 
-console.log(choosePrimes([36, 48, 9, 13, 19])); // [ 13, 19 ]
-console.log(choosePrimes([5, 6, 4, 11, 2017])); // [ 5, 11, 2017 ]
-
-// alternative solution using Array.filter
-// let choosePrimes = function(nums) {
-//     return nums.filter(isPrime);
-// }
-
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {

@@ -37,11 +37,11 @@ let repeatingTranslate = function(sentence) {
 
 
 let isVowel = function(word) {
-    if ('aeiou'.includes(word.toLowerCase())) {
+    const vowel = 'aeiouAEIOU'
+    if (vowel.includes(word.toLowerCase())) {
         return true;
-    } else {
-        return false;
-    };
+    }
+    return false;
 };
 
 
@@ -59,12 +59,6 @@ let translateWord = function(word) {
         }
     }
 };
-
-console.log(repeatingTranslate("we like to go running fast"));  // "we likelike to go runninging fastast"
-console.log(repeatingTranslate("he cannot find the trash"));    // "he cannotot findind thethe trashash"
-console.log(repeatingTranslate("pasta is my favorite dish"));   // "pastapasta is my favoritefavorite dishish"
-console.log(repeatingTranslate("her family flew to France"));   // "herer familyily flewew to FranceFrance"
-
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 

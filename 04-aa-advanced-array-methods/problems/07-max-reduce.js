@@ -15,7 +15,7 @@ console.log(maxWithReduce([-2, -3, -7, 3])); // 3
 */
 
 let maxWithReduce = function(nums) {
-    let maxVal = nums.reduce(function(accumulator, item) {
+    const maxVal = nums.reduce(function(accumulator, item) {
       if (accumulator > item) {
         return accumulator;
       } else {
