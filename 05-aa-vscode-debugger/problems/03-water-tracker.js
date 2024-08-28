@@ -17,20 +17,23 @@ then return true. Otherwise, return false.
 */
 
 function adequateWaterTracker(calendar) {
-  let noWater = 0;
-  let water = 0;
+  let water, noWater;
+  let truthValue = []
   for (let i = 0; i < calendar.length; i++) {
+    noWater = 0
+    water = 0
     const week = calendar[i];
-    for (let j = 0; j < week.length - 1; j++) {
-      const day = calendar[j];
+    for (let j = 0; j < week.length; j++) {
+      const day = week[j];
       if (day === 0) {
         noWater++;
       } else {
         water++;
       }
     }
+    truthValue.push(water > noWater)
   }
-  return noWater < water;
+  return truthValue.every(val => val === true)
 }
 
 const calendar1 = [
@@ -53,4 +56,3 @@ const calendar3 = [
 ];
 
 console.log(adequateWaterTracker(calendar3)); // true
-
